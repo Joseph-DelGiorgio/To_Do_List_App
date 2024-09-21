@@ -1,5 +1,5 @@
-import ToDoList from "./ToDoList";
-import './index.css'
+import MyComponent from './MyComponent'
+//import './index.css'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
 
 
   return(
-    <ToDoList/>
+    <MyComponent/>
   );
 
 }
