@@ -1,5 +1,6 @@
 import MyComponent from './MyComponent'
-//import './index.css'
+import './index.css'
+import DigitalClock from './DigitalClock'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
 
   return(
     <MyComponent/>
+    <DigitalClock/>
   );
 
 }
